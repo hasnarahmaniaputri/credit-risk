@@ -1,2 +1,5 @@
 # credit-risk
-The aims of the analysis is to find out the insights about the risk of credit for both lenders and borrowers using decision tree
+The aims of the analysis is to find out the insights about the risk of credit for both lenders and borrowers using decision tree.
+A decision tree defined as a nonparametric supervised algorithm that uses a series of if-else-based flowchart to obtain the predictions that result from a sequence of feature-based splits. It works by creating a tree-like model of decisions and their possible consequences with the goal of accurately predicting the outcome of a given input.
+
+As a method to reduce errors in the predictions made by the decision trees, a boosting algorithm can be implemented. The main idea of adaptive boosting in C5.0 is to weigh the data points in each successive boosting iteration during the construction of a classifier. These weights for each sample in the training data are distributed such that the algorithm will be focused to correctly classify the data points which were missclassified by the previous classifiers. Thus, samples correctly classified in a previous iteration will be slightly more likely to be missclassified in the current iteration. The dataset contains 17 variables and 1000 entries.
